@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nonlinear and amplitude dependent effects - Research - Amir Rajabpoor Alisepahi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Details of Amir Rajabpoor Alisepahi’s work on nonlinear and amplitude dependent effects in mechanical and phononic lattices."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+
+    <header class="site-header">
+      <div class="site-header-left">
+        <div class="site-logo">AR</div>
+        <div class="site-title">Amir Rajabpoor Alisepahi</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="clips.html">Clips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Research</div>
+        <h2 class="section-title">Nonlinear and amplitude dependent effects</h2>
+        <p class="section-lead">
+          How nonlinear interactions and finite amplitudes modify dispersion, localization, and energy transfer
+          in mechanical and phononic lattices.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Nonlinear mass in mass chains</h3>
+        <p>
+          I work with discrete chains that combine local resonators and nonlinear springs to study emerging wave
+          phenomena and frequency shifts.
+        </p>
+        <ul>
+          <li>Models with both linear and nonlinear components in nearest neighbor springs.</li>
+          <li>Extension to chains with second neighbor interactions and internal resonators.</li>
+          <li>Response under wave packet excitation and periodic forcing.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:1rem;">
+        <h3>Analytical approaches</h3>
+        <p>
+          Where possible I use perturbation and multiple scale methods to obtain approximate dispersion relations
+          and amplitude frequency relationships.
+        </p>
+        <ul>
+          <li>Separation of fast oscillations and slow envelope evolution.</li>
+          <li>Derivation of effective equations for envelope dynamics.</li>
+          <li>Comparison between analytical predictions and numerical integration.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:1rem;">
+        <h3>Role in applications</h3>
+        <p>
+          Understanding nonlinear effects is important for both design and reliability.
+        </p>
+        <ul>
+          <li>Predicting frequency shifts and bifurcations in small scale devices.</li>
+          <li>Controlling shock mitigation and energy absorption in architected materials.</li>
+          <li>Identifying operating ranges where nonlinearity is beneficial or harmful.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
+      <span>Nonlinear and amplitude dependent effects</span>
+    </footer>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
