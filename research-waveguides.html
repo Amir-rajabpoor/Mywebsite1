@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Waveguides and energy routing - Research - Amir Rajabpoor Alisepahi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Details of Amir Rajabpoor Alisepahi’s work on waveguides and energy routing in phononic and mechanical metamaterials."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+
+    <header class="site-header">
+      <div class="site-header-left">
+        <div class="site-logo">AR</div>
+        <div class="site-title">Amir Rajabpoor Alisepahi</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="clips.html">Clips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Research</div>
+        <h2 class="section-title">Waveguides and energy routing</h2>
+        <p class="section-lead">
+          Using band gaps, defects, and interface states to steer where energy travels in mechanical and acoustic
+          structures.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Guided modes in phononic crystals</h3>
+        <p>
+          I study how patterned mechanical and acoustic media can be used to create channels where waves are guided
+          while other directions are blocked.
+        </p>
+        <ul>
+          <li>Band gap design for targeted frequency ranges.</li>
+          <li>Defect lines and interfaces that act as effective waveguides.</li>
+          <li>Tradeoffs between confinement, loss, and fabrication simplicity.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:1rem;">
+        <h3>Wave routing in perturbed lattices</h3>
+        <p>
+          In more complex lattices, I look at how local parameter changes, defects, or graded regions can route
+          energy from one location to another.
+        </p>
+        <ul>
+          <li>Gradual versus abrupt transitions in mass or stiffness patterns.</li>
+          <li>Routing around defects or damage without losing too much energy.</li>
+          <li>Influence of damping and non ideal boundary conditions.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:1rem;">
+        <h3>Simulation and verification</h3>
+        <p>
+          These problems are explored with a combination of analytical tools and numerical simulations.
+        </p>
+        <ul>
+          <li>Frequency domain and time domain simulations in COMSOL and custom codes.</li>
+          <li>Extraction of dispersion and group velocity from simulated wave packets.</li>
+          <li>Comparison with experiments where suitable samples are fabricated.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
+      <span>Waveguides and energy routing</span>
+    </footer>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
