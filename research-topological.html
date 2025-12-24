@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Topological phononic lattices - Research - Amir Rajabpoor Alisepahi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Details of Amir Rajabpoor Alisepahi’s work on topological phononic lattices, edge and interface modes, and long range coupling."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+
+    <header class="site-header">
+      <div class="site-header-left">
+        <div class="site-logo">AR</div>
+        <div class="site-title">Amir Rajabpoor Alisepahi</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="clips.html">Clips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Research</div>
+        <h2 class="section-title">Topological phononic lattices</h2>
+        <p class="section-lead">
+          Mechanical lattices that support robust edge and interface modes, with a focus on one dimensional and ladder
+          type structures inspired by Su Schrieffer Heeger models.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Overview</h3>
+        <p>
+          I work on mechanical and phononic realizations of topological lattices where geometry and coupling can be tuned
+          to create band gaps and localized modes. These include single chains, coupled ladders, and structures with
+          beyond nearest neighbor interactions.
+        </p>
+        <ul>
+          <li>Design of unit cells and coupling patterns to open and tune band gaps.</li>
+          <li>Analysis of edge and domain wall modes that live inside the band gaps.</li>
+          <li>Study of how long range couplings modify band topology and standard winding number calculations.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Modes</div>
+        <h2 class="section-title">Bulk and interface modes</h2>
+        <p class="section-lead">
+          Below are representative clips from numerical and experimental work illustrating the difference between bulk
+          and interface response in a topological phononic lattice.
+        </p>
+      </div>
+
+      <div class="card" style="text-align:center;">
+        <h3>Bulk mode</h3>
+        <p>
+          A mode that extends through the lattice and samples the interior of the band structure.
+        </p>
+        <video controls style="max-width:100%;">
+          <source src="Bulk_mode.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p style="margin-top:0.35rem;font-size:0.8rem;color:#9ca3af;">
+          Bulk mode.
+        </p>
+      </div>
+
+      <div class="card" style="margin-top:1.1rem; text-align:center;">
+        <h3>Interface mode</h3>
+        <p>
+          A mode localized near the interface or domain wall between two regions with different topological character.
+        </p>
+        <video controls style="max-width:100%;">
+          <source src="interface_mode.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p style="margin-top:0.35rem;font-size:0.8rem;color:#9ca3af;">
+          Interface mode.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h3>Related questions</h3>
+        <ul>
+          <li>How far the system can be perturbed while still supporting a useful interface mode.</li>
+          <li>How long range couplings change the correspondence between edge spectra and bulk invariants.</li>
+          <li>How fabrication tolerances and disorder affect localization and robustness.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
+      <span>Topological phononic lattices</span>
+    </footer>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
