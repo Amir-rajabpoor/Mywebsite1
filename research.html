@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Research - Amir Rajabpoor Alisepahi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Research by Amir Rajabpoor Alisepahi on mechanical and phononic metamaterials, wave propagation, and thermo mechanical behavior of device and package stacks."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+
+    <header class="site-header">
+      <div class="site-header-left">
+        <div class="site-logo">AR</div>
+        <div class="site-title">Amir Rajabpoor Alisepahi</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="clips.html">Clips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Research overview</div>
+        <h2 class="section-title">Mechanical and phononic metamaterials</h2>
+        <p class="section-lead">
+          My research focuses on architected mechanical structures that control vibration and acoustic waves.
+          I work across theory, simulation, and experiment, with an emphasis on topological phenomena
+          and realistic device and package constraints.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Topological phononic lattices</h3>
+          <p>
+            One dimensional and quasi one dimensional lattices that support robust localized modes.
+          </p>
+          <ul>
+            <li>Su Schrieffer Heeger chains and ladders with tunable unit cells.</li>
+            <li>In gap edge and domain wall states under strong perturbations.</li>
+            <li>Effect of long range coupling on band topology and winding numbers.</li>
+          </ul>
+
+          <!-- Bulk mode clip -->
+          <div style="margin-top:0.6rem; text-align:center;">
+            <video controls style="max-width:100%;">
+              <source src="Bulk_mode.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p style="margin-top:0.35rem;font-size:0.8rem;color:#9ca3af;">
+              Bulk mode.
+            </p>
+          </div>
+
+          <!-- Interface mode clip -->
+          <div style="margin-top:0.6rem; text-align:center;">
+            <video controls style="max-width:100%;">
+              <source src="interface_mode.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p style="margin-top:0.35rem;font-size:0.8rem;color:#9ca3af;">
+              Interface mode.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Waveguides and energy routing</h3>
+          <p>
+            Using band gaps and topological states to control where waves travel in a structure.
+          </p>
+          <ul>
+            <li>Guided modes along interfaces and defects in phononic crystals.</li>
+            <li>Transition from extended to localized modes under geometry or material changes.</li>
+            <li>Analysis of robustness to disorder and fabrication variation.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Nonlinear and amplitude dependent effects</h3>
+          <p>
+            How nonlinearity modifies dispersion, localization, and energy transfer.
+          </p>
+          <ul>
+            <li>Mass in mass chains with nonlinear springs and internal resonators.</li>
+            <li>Multiple scale style analysis and numerical time integration.</li>
+            <li>Frequency shifts and new branches that appear with amplitude.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Methods</div>
+        <h2 class="section-title">How I work</h2>
+        <p class="section-lead">
+          I combine analytical derivations, numerical solvers, and experiments, and I try to keep the same problem
+          flowing through all three levels.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Analytical models</h3>
+          <p>
+            I start from minimal models that capture the key physics and give intuition.
+          </p>
+          <ul>
+            <li>Dispersion relations for periodic chains and beams.</li>
+            <li>Eigenvalue problems for finite lattices and edge states.</li>
+            <li>Asymptotic and perturbation methods when nonlinearity is present.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Finite elements and numerics</h3>
+          <p>
+            I use numerical solvers when geometry, materials, or boundary conditions become complex.
+          </p>
+          <ul>
+            <li>COMSOL and other FEM tools for band structures and mode shapes.</li>
+            <li>Custom MATLAB and Python codes for large chains and parametric sweeps.</li>
+            <li>Time domain simulations and FFT based spectro spatial analysis.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Experiments</h3>
+          <p>
+            I aim to close the loop with measurements whenever possible.
+          </p>
+          <ul>
+            <li>3D printing of mechanical and phononic samples.</li>
+            <li>Laser vibrometry for full field vibration measurements.</li>
+            <li>Comparison of measured and predicted dispersion and mode localization.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Current topics</div>
+        <h2 class="section-title">Active research directions</h2>
+      </div>
+
+      <div class="card">
+        <h3>Examples of current and recent questions</h3>
+        <ul>
+          <li>How far can we perturb an SSH style lattice and still retain useful interface modes.</li>
+          <li>What happens to the usual winding number picture when we include long range interactions.</li>
+          <li>How temperature, geometry, and small scale effects shift phonon bands in graphene like systems.</li>
+          <li>How phononic or architected layers can help manage heat and stress in device and package stacks.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
+      <span>Research page</span>
+    </footer>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
